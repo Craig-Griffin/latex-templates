@@ -1,0 +1,68 @@
+\documentclass[10pt]{letter} % 10pt font size default, 11pt and 12pt are also possible
+\longindentation=0pt
+\usepackage[UKenglish]{babel}% http://ctan.org/pkg/babel
+\usepackage[UKenglish]{isodate}% http://ctan.org/pkg/isodate
+\usepackage{geometry} % Required for adjusting page dimensions
+
+%\longindentation=0pt % Un-commenting this line will push the closing "Sincerely," to the left of the page
+
+\geometry{
+	paper=a4paper, % Change to letterpaper for US letter
+	top=3cm, % Top margin
+	bottom=1.5cm, % Bottom margin
+	left=4.5cm, % Left margin
+	right=4.5cm, % Right margin
+	%showframe, % Uncomment to show how the type block is set on the page
+}
+
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+
+\usepackage{stix} % Use the Stix font by default
+
+\usepackage{microtype} % Improve justification
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME & ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+
+\signature{Craig Griffin} % Your name for the signature at the bottom
+
+\address{Craig Griffin \\ 29 Ravenscliffe Drive \\ Glasgow \\ G46 7QR} % Your address and phone number
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+	
+	%----------------------------------------------------------------------------------------
+	%	ADDRESSEE SECTIONBarclays Glasgow Campus, 30 Clyde Place, Glasgow, Glasgow, G5 8AQ
+	%----------------------------------------------------------------------------------------
+	
+	\begin{letter}{Barclays Recruitment \\ Barclays Glasgow Campus \\ 30 Clyde Place, Glasgow \\ Glasgow \\ G5 8AQ} % Name/title of the addressee
+		
+		%----------------------------------------------------------------------------------------
+		%	LETTER CONTENT SECTION
+		%----------------------------------------------------------------------------------------
+		
+		\opening{Dear Barclays,}
+		
+I am a software developer with two years of industry experience looking for a new role that will provide me with new challenges and allow me to develop and improve my technical problem-solving skills. Given the trend for banking to be conducted increasingly through online technology, I believe that I could use my skills gained through working at a small startup and through university projects to better improve the banking experience for Barclays customers. 
+
+I graduated from the University Of Strathclyde with an upper second class degree last year in 2021. At university, I have been involved in many classes and projects that have allowed me to learn and develop essential skills like object-oriented programming with Java, and web technology using languages like Javascript, HTML and CSS, and I have a strong understanding of database design through taking a SQL class. My dissertation incorporated the Full-stack of the development process and I wrote a mobile application that used a variation of the A-Star search algorithm to find an optimal route for island hoppers travelling the Scottish Western Isles. The application was fed data with an API.
+
+Over the last two years, I have been involved in an ESOL English learning startup called Klik2Learn which develops award-winning online digital English courses. The beginner's course that I have been a major team player in developing is built using ReactJS. The course also tracks users' progress and updates our database using a custom made API that I helped develop. Working at the startup has taught me the importance of good version control using GIT, the importance of maintainable code and good documentation and the importance of progress tracking using JIRA.
+
+Outside of work I am involved heavily with my local Scout Troop and help run the Cub section. This has vastly improved my leadership skills and communication skills. It also keeps me thinking outside of the box to keep the program entertaining for young people.
+		
+		
+
+	
+	Thank you for your time, and I look forward to your reply.
+		
+		\closing{Sincerely,}
+		
+		%----------------------------------------------------------------------------------------
+		
+	\end{letter}
+	
+\end{document}
